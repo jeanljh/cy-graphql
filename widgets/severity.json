@@ -1,0 +1,51 @@
+[ {
+  "uid" : "a531fcf1b83ad9ca",
+  "name" : "Test Delete List",
+  "time" : {
+    "start" : 1652238040148,
+    "stop" : 1652238040234,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a93d9878664a1df4",
+  "name" : "Test Create List",
+  "time" : {
+    "start" : 1652238039414,
+    "stop" : 1652238039812,
+    "duration" : 398
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be165070404b5a08",
+  "name" : "Test Delete Item",
+  "time" : {
+    "start" : 1652238040036,
+    "stop" : 1652238040145,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2c44592458b8d0f",
+  "name" : "Test Get Available List",
+  "time" : {
+    "start" : 1652238039817,
+    "stop" : 1652238039921,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ffba3cf9999fab6",
+  "name" : "Test Create Item",
+  "time" : {
+    "start" : 1652238039925,
+    "stop" : 1652238040031,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
