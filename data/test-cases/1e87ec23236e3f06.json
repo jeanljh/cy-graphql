@@ -1,12 +1,12 @@
 {
-  "uid" : "16e25c897c801e96",
+  "uid" : "1e87ec23236e3f06",
   "name" : "Test Create List",
   "fullName" : "Test Create List",
   "historyId" : "a6d30632e3f0ccdb5f6829683c6a6699",
   "time" : {
-    "start" : 1652238606435,
-    "stop" : 1652238606608,
-    "duration" : 173
+    "start" : 1652238686025,
+    "stop" : 1652238686178,
+    "duration" : 153
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "POST 200 /graphql/",
       "time" : {
-        "start" : 1652238606482,
-        "stop" : 1652238606584,
-        "duration" : 102
+        "start" : 1652238686068,
+        "stop" : 1652238686163,
+        "duration" : 95
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,9 +36,9 @@
     }, {
       "name" : "its .body.data.list",
       "time" : {
-        "start" : 1652238606584,
-        "stop" : 1652238606589,
-        "duration" : 5
+        "start" : 1652238686163,
+        "stop" : 1652238686169,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,10 +49,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **'33'** not to be null",
+      "name" : "assert expected **'34'** not to be null",
       "time" : {
-        "start" : 1652238606607,
-        "stop" : 1652238606607,
+        "start" : 1652238686176,
+        "stop" : 1652238686176,
         "duration" : 0
       },
       "status" : "passed",
@@ -60,7 +60,7 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "33"
+        "value" : "34"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -69,8 +69,8 @@
     }, {
       "name" : "assert expected **test list** to equal **test list**",
       "time" : {
-        "start" : 1652238606607,
-        "stop" : 1652238606607,
+        "start" : 1652238686176,
+        "stop" : 1652238686176,
         "duration" : 0
       },
       "status" : "passed",
@@ -88,10 +88,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "assert expected **'33'** not to be empty",
+      "name" : "assert expected **'34'** not to be empty",
       "time" : {
-        "start" : 1652238606607,
-        "stop" : 1652238606607,
+        "start" : 1652238686176,
+        "stop" : 1652238686176,
         "duration" : 0
       },
       "status" : "passed",
@@ -99,7 +99,7 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "33"
+        "value" : "34"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -131,6 +131,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "16e25c897c801e96.json",
+  "source" : "1e87ec23236e3f06.json",
   "parameterValues" : [ ]
 }

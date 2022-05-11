@@ -1,12 +1,12 @@
 {
-  "uid" : "b78793ccaf8b884e",
-  "name" : "Test Delete Item",
-  "fullName" : "Test Delete Item",
-  "historyId" : "4c0fa886e7c09f7842b95dc4a12ca8d5",
+  "uid" : "b1f605dfe735d0e4",
+  "name" : "Test Delete List",
+  "fullName" : "Test Delete List",
+  "historyId" : "49d0cdf6d4690e24e78ed683ca06b9a9",
   "time" : {
-    "start" : 1652238606776,
-    "stop" : 1652238606849,
-    "duration" : 73
+    "start" : 1652238686363,
+    "stop" : 1652238686423,
+    "duration" : 60
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "POST 200 /graphql/",
       "time" : {
-        "start" : 1652238606819,
-        "stop" : 1652238606846,
-        "duration" : 27
+        "start" : 1652238686390,
+        "stop" : 1652238686420,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,8 +36,8 @@
     }, {
       "name" : "its .body.data.success",
       "time" : {
-        "start" : 1652238606846,
-        "stop" : 1652238606849,
+        "start" : 1652238686420,
+        "stop" : 1652238686423,
         "duration" : 3
       },
       "status" : "passed",
@@ -49,10 +49,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **true** to equal **true**",
+      "name" : "assert expected **true** to be true",
       "time" : {
-        "start" : 1652238606849,
-        "stop" : 1652238606849,
+        "start" : 1652238686423,
+        "stop" : 1652238686423,
         "duration" : 0
       },
       "status" : "passed",
@@ -95,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b78793ccaf8b884e.json",
+  "source" : "b1f605dfe735d0e4.json",
   "parameterValues" : [ ]
 }

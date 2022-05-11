@@ -1,50 +1,50 @@
 [ {
-  "uid" : "9793d7a37b5f525f",
-  "name" : "Test Create Item",
-  "time" : {
-    "start" : 1652238606709,
-    "stop" : 1652238606764,
-    "duration" : 55
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "328f25726faa1198",
-  "name" : "Test Get Available List",
-  "time" : {
-    "start" : 1652238606614,
-    "stop" : 1652238606705,
-    "duration" : 91
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b78793ccaf8b884e",
+  "uid" : "87eb5ed1861fdbae",
   "name" : "Test Delete Item",
   "time" : {
-    "start" : 1652238606776,
-    "stop" : 1652238606849,
-    "duration" : 73
+    "start" : 1652238686308,
+    "stop" : 1652238686359,
+    "duration" : 51
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "16e25c897c801e96",
-  "name" : "Test Create List",
-  "time" : {
-    "start" : 1652238606435,
-    "stop" : 1652238606608,
-    "duration" : 173
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7a1bab2d636cfe94",
+  "uid" : "b1f605dfe735d0e4",
   "name" : "Test Delete List",
   "time" : {
-    "start" : 1652238606853,
-    "stop" : 1652238607198,
-    "duration" : 345
+    "start" : 1652238686363,
+    "stop" : 1652238686423,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cac6788fa914eb",
+  "name" : "Test Create Item",
+  "time" : {
+    "start" : 1652238686247,
+    "stop" : 1652238686295,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97689a1c904898d8",
+  "name" : "Test Get Available List",
+  "time" : {
+    "start" : 1652238686184,
+    "stop" : 1652238686243,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e87ec23236e3f06",
+  "name" : "Test Create List",
+  "time" : {
+    "start" : 1652238686025,
+    "stop" : 1652238686178,
+    "duration" : 153
   },
   "status" : "passed",
   "severity" : "normal"
