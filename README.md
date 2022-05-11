@@ -1,3 +1,5 @@
+# cy-graphql
+
 [![CI](https://github.com/jeanljh/cy-graphql/actions/workflows/main.yml/badge.svg)](https://github.com/jeanljh/cy-graphql/actions/workflows/main.yml)
 
 Example of GraphQL test in Cypress.
