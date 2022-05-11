@@ -1,12 +1,12 @@
 {
-  "uid" : "a46dfc7ddbc8e198",
-  "name" : "Test Get Available List",
-  "fullName" : "Test Get Available List",
-  "historyId" : "417a71d5af5fcee723b4b6c8f8e494f6",
+  "uid" : "ab6c09cc39da05cc",
+  "name" : "Test Delete Item",
+  "fullName" : "Test Delete Item",
+  "historyId" : "4c0fa886e7c09f7842b95dc4a12ca8d5",
   "time" : {
-    "start" : 1652238287466,
-    "stop" : 1652238287579,
-    "duration" : 113
+    "start" : 1652238497603,
+    "stop" : 1652238497720,
+    "duration" : 117
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,8 +21,8 @@
     "steps" : [ {
       "name" : "POST 200 /graphql/",
       "time" : {
-        "start" : 1652238287489,
-        "stop" : 1652238287573,
+        "start" : 1652238497632,
+        "stop" : 1652238497716,
         "duration" : 84
       },
       "status" : "passed",
@@ -34,11 +34,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "its .body.data.lists",
+      "name" : "its .body.data.success",
       "time" : {
-        "start" : 1652238287573,
-        "stop" : 1652238287578,
-        "duration" : 5
+        "start" : 1652238497716,
+        "stop" : 1652238497720,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,10 +49,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **[ Array(6) ]** to have a length above **0**",
+      "name" : "assert expected **true** to equal **true**",
       "time" : {
-        "start" : 1652238287578,
-        "stop" : 1652238287578,
+        "start" : 1652238497720,
+        "stop" : 1652238497720,
         "duration" : 0
       },
       "status" : "passed",
@@ -60,7 +60,10 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "6"
+        "value" : "true"
+      }, {
+        "name" : "expected",
+        "value" : "true"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -92,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a46dfc7ddbc8e198.json",
+  "source" : "ab6c09cc39da05cc.json",
   "parameterValues" : [ ]
 }
