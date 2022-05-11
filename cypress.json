@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://graphql-java-spring-boot.herokuapp.com/graphql",
+    "env": {
+        "allure": true
+    }
+}
