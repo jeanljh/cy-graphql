@@ -1,12 +1,12 @@
 {
-  "uid" : "c277da89bfa9fc4a",
-  "name" : "Test Get Available List",
-  "fullName" : "Test Get Available List",
-  "historyId" : "417a71d5af5fcee723b4b6c8f8e494f6",
+  "uid" : "7a1bab2d636cfe94",
+  "name" : "Test Delete List",
+  "fullName" : "Test Delete List",
+  "historyId" : "49d0cdf6d4690e24e78ed683ca06b9a9",
   "time" : {
-    "start" : 1652238497324,
-    "stop" : 1652238497478,
-    "duration" : 154
+    "start" : 1652238606853,
+    "stop" : 1652238607198,
+    "duration" : 345
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "POST 200 /graphql/",
       "time" : {
-        "start" : 1652238497345,
-        "stop" : 1652238497469,
-        "duration" : 124
+        "start" : 1652238606876,
+        "stop" : 1652238607194,
+        "duration" : 318
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,11 +34,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "its .body.data.lists",
+      "name" : "its .body.data.success",
       "time" : {
-        "start" : 1652238497469,
-        "stop" : 1652238497477,
-        "duration" : 8
+        "start" : 1652238607194,
+        "stop" : 1652238607197,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,10 +49,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **[ Array(6) ]** to have a length above **0**",
+      "name" : "assert expected **true** to be true",
       "time" : {
-        "start" : 1652238497477,
-        "stop" : 1652238497477,
+        "start" : 1652238607197,
+        "stop" : 1652238607197,
         "duration" : 0
       },
       "status" : "passed",
@@ -60,7 +60,10 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "6"
+        "value" : "true"
+      }, {
+        "name" : "expected",
+        "value" : "true"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -92,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c277da89bfa9fc4a.json",
+  "source" : "7a1bab2d636cfe94.json",
   "parameterValues" : [ ]
 }

@@ -1,14 +1,15 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "Test Create List",
-    "uid" : "4cec17fc08bf67a6",
+    "uid" : "16e25c897c801e96",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1652238496869,
-      "stop" : 1652238497318,
-      "duration" : 449
+      "start" : 1652238606435,
+      "stop" : 1652238606608,
+      "duration" : 173
     },
     "flaky" : false,
     "newFailed" : false,
@@ -19,13 +20,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Get Available List",
-    "uid" : "c277da89bfa9fc4a",
+    "uid" : "328f25726faa1198",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1652238497324,
-      "stop" : 1652238497478,
-      "duration" : 154
+      "start" : 1652238606614,
+      "stop" : 1652238606705,
+      "duration" : 91
     },
     "flaky" : false,
     "newFailed" : false,
@@ -36,13 +37,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Create Item",
-    "uid" : "d292cdca59ac8749",
+    "uid" : "9793d7a37b5f525f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1652238497483,
-      "stop" : 1652238497598,
-      "duration" : 115
+      "start" : 1652238606709,
+      "stop" : 1652238606764,
+      "duration" : 55
     },
     "flaky" : false,
     "newFailed" : false,
@@ -53,13 +54,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Delete Item",
-    "uid" : "ab6c09cc39da05cc",
+    "uid" : "b78793ccaf8b884e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1652238497603,
-      "stop" : 1652238497720,
-      "duration" : 117
+      "start" : 1652238606776,
+      "stop" : 1652238606849,
+      "duration" : 73
     },
     "flaky" : false,
     "newFailed" : false,
@@ -70,13 +71,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Test Delete List",
-    "uid" : "2239eed92f38546e",
+    "uid" : "7a1bab2d636cfe94",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1652238497724,
-      "stop" : 1652238497831,
-      "duration" : 107
+      "start" : 1652238606853,
+      "stop" : 1652238607198,
+      "duration" : 345
     },
     "flaky" : false,
     "newFailed" : false,
@@ -85,6 +86,5 @@
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
-  } ],
-  "name" : "behaviors"
+  } ]
 }
