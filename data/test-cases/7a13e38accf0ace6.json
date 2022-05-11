@@ -1,12 +1,12 @@
 {
-  "uid" : "b2c44592458b8d0f",
-  "name" : "Test Get Available List",
-  "fullName" : "Test Get Available List",
-  "historyId" : "417a71d5af5fcee723b4b6c8f8e494f6",
+  "uid" : "7a13e38accf0ace6",
+  "name" : "Test Create List",
+  "fullName" : "Test Create List",
+  "historyId" : "a6d30632e3f0ccdb5f6829683c6a6699",
   "time" : {
-    "start" : 1652238039817,
-    "stop" : 1652238039921,
-    "duration" : 104
+    "start" : 1652238287096,
+    "stop" : 1652238287462,
+    "duration" : 366
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "POST 200 /graphql/",
       "time" : {
-        "start" : 1652238039832,
-        "stop" : 1652238039915,
-        "duration" : 83
+        "start" : 1652238287126,
+        "stop" : 1652238287449,
+        "duration" : 323
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,10 +34,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "its .body.data.lists",
+      "name" : "its .body.data.list",
       "time" : {
-        "start" : 1652238039915,
-        "stop" : 1652238039921,
+        "start" : 1652238287449,
+        "stop" : 1652238287455,
         "duration" : 6
       },
       "status" : "passed",
@@ -49,10 +49,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **[ Array(6) ]** to have a length above **0**",
+      "name" : "assert expected **'31'** not to be null",
       "time" : {
-        "start" : 1652238039921,
-        "stop" : 1652238039921,
+        "start" : 1652238287460,
+        "stop" : 1652238287460,
         "duration" : 0
       },
       "status" : "passed",
@@ -60,7 +60,46 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "6"
+        "value" : "31"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "assert expected **test list** to equal **test list**",
+      "time" : {
+        "start" : 1652238287461,
+        "stop" : 1652238287461,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "test list"
+      }, {
+        "name" : "expected",
+        "value" : "test list"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "assert expected **'31'** not to be empty",
+      "time" : {
+        "start" : 1652238287461,
+        "stop" : 1652238287461,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "31"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -69,7 +108,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
+    "stepsCount" : 5,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -92,6 +131,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b2c44592458b8d0f.json",
+  "source" : "7a13e38accf0ace6.json",
   "parameterValues" : [ ]
 }

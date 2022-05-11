@@ -1,12 +1,12 @@
 {
-  "uid" : "7ffba3cf9999fab6",
-  "name" : "Test Create Item",
-  "fullName" : "Test Create Item",
-  "historyId" : "88acdf6ef602371824f248caf6516613",
+  "uid" : "4e301c01580ab21e",
+  "name" : "Test Delete Item",
+  "fullName" : "Test Delete Item",
+  "historyId" : "4c0fa886e7c09f7842b95dc4a12ca8d5",
   "time" : {
-    "start" : 1652238039925,
-    "stop" : 1652238040031,
-    "duration" : 106
+    "start" : 1652238287678,
+    "stop" : 1652238288222,
+    "duration" : 544
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "POST 200 /graphql/",
       "time" : {
-        "start" : 1652238039942,
-        "stop" : 1652238040016,
-        "duration" : 74
+        "start" : 1652238287693,
+        "stop" : 1652238288218,
+        "duration" : 525
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,11 +34,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "its .body.data.item",
+      "name" : "its .body.data.success",
       "time" : {
-        "start" : 1652238040016,
-        "stop" : 1652238040024,
-        "duration" : 8
+        "start" : 1652238288218,
+        "stop" : 1652238288222,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,10 +49,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **'32'** not to be null",
+      "name" : "assert expected **true** to equal **true**",
       "time" : {
-        "start" : 1652238040030,
-        "stop" : 1652238040030,
+        "start" : 1652238288222,
+        "stop" : 1652238288222,
         "duration" : 0
       },
       "status" : "passed",
@@ -60,46 +60,10 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "32"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "assert expected **item list** to equal **item list**",
-      "time" : {
-        "start" : 1652238040030,
-        "stop" : 1652238040030,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "item list"
+        "value" : "true"
       }, {
         "name" : "expected",
-        "value" : "item list"
-      } ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "assert expected **'32'** not to be empty",
-      "time" : {
-        "start" : 1652238040031,
-        "stop" : 1652238040031,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "32"
+        "value" : "true"
       } ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
@@ -108,7 +72,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 5,
+    "stepsCount" : 3,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -131,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7ffba3cf9999fab6.json",
+  "source" : "4e301c01580ab21e.json",
   "parameterValues" : [ ]
 }
