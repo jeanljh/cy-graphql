@@ -29,10 +29,10 @@ class Item {
         }
         `
     deleteItem =
-    `mutation deleteItemMutation($id: ID!) {
+        `mutation deleteItemMutation($id: ID!) {
         success: deleteItem(id: $id)
-    }
-    `
+        }
+        `
     varCreateItem(itemName, listId) {
         return {
             input: {
