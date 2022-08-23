@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed May 11 03:11:26 UTC 2022","Wed May 11 03:11:26 UTC 2022","153","","Test Suite","","","","Test Create List",""
-"passed","Wed May 11 03:11:26 UTC 2022","Wed May 11 03:11:26 UTC 2022","51","","Test Suite","","","","Test Delete Item",""
-"passed","Wed May 11 03:11:26 UTC 2022","Wed May 11 03:11:26 UTC 2022","48","","Test Suite","","","","Test Create Item",""
-"passed","Wed May 11 03:11:26 UTC 2022","Wed May 11 03:11:26 UTC 2022","59","","Test Suite","","","","Test Get Available List",""
-"passed","Wed May 11 03:11:26 UTC 2022","Wed May 11 03:11:26 UTC 2022","60","","Test Suite","","","","Test Delete List",""
